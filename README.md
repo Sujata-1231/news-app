@@ -36,6 +36,13 @@
 
 ## Running Tests
 
-- npx vitest run
 - npx vitest
+- Runs tests in watch mode (great for development).
+
+- npx vitest run
+- Runs all tests once without watch mode
+
 - npx vitest run --coverage
+- Runs all tests with code coverage report.
+  On first run, it might ask:
+  Proceed with installing coverage provider v8? → Just type yes
