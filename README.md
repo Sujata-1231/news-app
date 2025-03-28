@@ -33,3 +33,9 @@
 - cd news-app
 - npm i
 - npm run dev
+
+## Running Tests
+
+- npx vitest run
+- npx vitest
+- npx vitest run --coverage
